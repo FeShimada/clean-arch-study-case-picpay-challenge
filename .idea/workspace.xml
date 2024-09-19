@@ -5,25 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3e11fc0-fa30-4305-a2ca-1d0bf5980db8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/project/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/project/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/br/com/project/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usecase/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/br/com/project/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/project/core/domain/TaxNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/project/core/domain/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/project/core/domain/TransactionPin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/project/core/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/project/core/domain/Wallet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/project/core/domain/enums/TransactionStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/project/core/domain/enums/UserTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/project/core/exception/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/project/core/exception/InternalServerErrorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/project/core/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/project/core/exception/TaxNumberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/project/core/exception/TransactionPinException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/project/core/exception/TransferException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/project/core/exception/enums/ErrorCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/br/com/project/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +32,14 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,11 +61,29 @@
     "Gradle.clean-arch-study-case-picpay-challenge [dependencies].executor": "Run",
     "Gradle.clean-arch-study-case-picpay-challenge.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.project.core.exception" />
+      <recent name="br.com.project.core.exception.enums" />
+      <recent name="br.com.project.core.domain.enums" />
+      <recent name="br.com.project.core.domain" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.project.core.domain.enums" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.project.core.exception" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="clean-arch-study-case-picpay-challenge [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
