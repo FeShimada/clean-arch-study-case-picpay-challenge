@@ -1,0 +1,6 @@
+rootProject.name = 'clean-arch-study-case-picpay-challenge'
+include 'core'
+include 'usecase'
+include 'application'
+include 'infrastructure'
+
